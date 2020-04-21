@@ -1,9 +1,9 @@
-       pipeline{
-       stages{
+pipeline{
+  stages{
        stage('initial'){
             steps{
                 echo "This is common pipeline"
-            }
-        }
-        }
-        }
+                }
+           }
+  }
+}
