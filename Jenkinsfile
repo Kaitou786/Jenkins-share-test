@@ -3,7 +3,9 @@ pipeline{
     stages {
         stage ("build") {		//an arbitrary stage name
             steps {
-                build 'Pipeline_B'	//this is where we specify which job to invoke.
+                build {
+                    job 'Pipeline_B'
+                }	//this is where we specify which job to invoke.
             }
         }
     }
