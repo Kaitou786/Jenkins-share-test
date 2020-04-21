@@ -8,7 +8,7 @@ pipeline{
         }
 	    stage('call another'){
 		    steps{
-		    	build 'Jenkinsfile-common'
+		    	build 'pipelineB'
 		    }
 	    }
 }
