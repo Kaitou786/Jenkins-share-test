@@ -1,10 +1,5 @@
-pipeline{
-    agent { label 'jenkins-slave'}
-    stages{
         stage('initial'){
             steps{
                 echo "This is common pipeline"
             }
         }
-	}
-	}
