@@ -1,5 +1,9 @@
-        stage('initial'){
+       pipeline{
+       stages{
+       stage('initial'){
             steps{
                 echo "This is common pipeline"
             }
+        }
+        }
         }
