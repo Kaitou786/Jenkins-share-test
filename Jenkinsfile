@@ -6,5 +6,10 @@ pipeline{
                 echo "This is the start Pipeline"
             }
         }
-	}
-	}
+	    stage('call another'){
+		    steps{
+		    	build 'Jenkinsfile_common'
+		    }
+	    }
+}
+}
