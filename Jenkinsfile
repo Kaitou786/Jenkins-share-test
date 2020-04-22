@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage ("build") {		//an arbitrary stage name
             steps {
-                build("Pipeline_B")	//this is where we specify which job to invoke.
+               echo "this is different"	//this is where we specify which job to invoke.
             }
         }
     }
