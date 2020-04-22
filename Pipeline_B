@@ -1,5 +1,5 @@
 pipeline{
-    agent                    { label 'jenkins-slave'}				//agent specifies where the pipeline will execute. 
+    agent                    { label 'go'}				//agent specifies where the pipeline will execute. 
     stages {
         stage ("build") {		//an arbitrary stage name
             steps {
