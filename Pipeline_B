@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage ("build") {		//an arbitrary stage name
             steps {
-                build(job: 'Kogito/env-test')	//this is where we specify which job to invoke.
+                build(job: 'Kogito/common')	//this is where we specify which job to invoke.
             }
         }
     }
